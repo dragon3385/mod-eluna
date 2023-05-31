@@ -657,7 +657,7 @@ public:
         sEluna->OnMoneyChanged(player, amount);
     }
 
-    void OnGiveXP(Player* player, uint32& amount, Unit* victim, uint8 xpSource) override
+    void OnGiveXP(Player* player, uint32& amount, Unit* victim, uint8 xpSource)
     {
         sEluna->OnGiveXP(player, amount, victim, xpSource);
     }
